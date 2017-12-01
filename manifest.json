@@ -7,8 +7,8 @@
   "description": "Adds Search with Google in Microsoft Edge's context menu",
 
   "icons": {
-    "16": "icons/icon@16.svg",
-    "96": "icons/icon@96.svg"
+    "16": "icons/icon.ico",
+    "96": "icons/icon.ico"
   },
   "permissions": [
     "contextMenus"
