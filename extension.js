@@ -13,7 +13,7 @@ function onCreated() {
  * Create the context menu
  */
 browser.contextMenus.create({
-  id: "search-with-google",
+  id: "search-with-google-for-edge",
   title: "Search with Google",
   contexts: ["selection"],
 }, onCreated);
@@ -23,7 +23,7 @@ browser.contextMenus.create({
  */
 browser.contextMenus.onClicked.addListener((info, tab) => {
   switch (info.menuItemId) {
-    case "search-with-google":
+    case "search-with-google-for-edge":
       browser.tabs.create({
         url: `https://www.google.com/search?q=${encodeURIComponent(info.selectionText)}`
       });

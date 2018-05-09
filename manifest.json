@@ -1,20 +1,25 @@
 {
   "author": "Tahnik Mustasin",
   "manifest_version": 2,
-  "name": "SearchWithGoogle",
+  "name": "Search with Google for Edge",
   "version": "1.0",
 
   "description": "Adds Search with Google in Microsoft Edge's context menu",
 
   "icons": {
     "16": "icons/icon.ico",
-    "96": "icons/icon.ico"
+    "24": "icons/icon.ico",
+    "32": "icons/icon.ico",
+    "48": "icons/icon.ico",
+    "96": "icons/icon.ico",
+    "128": "icons/icon.ico",
+    "256": "icons/icon.ico"
   },
   "permissions": [
     "contextMenus"
   ],
   "background": {
-    "scripts": ["search_with_google.js"],
+    "scripts": ["extension.js"],
     "persistent": true
   }
 }
